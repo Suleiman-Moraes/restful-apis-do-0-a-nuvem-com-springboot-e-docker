@@ -1,7 +1,6 @@
 language: bash
 services: docker
 before_install:
-    - cd /
     - echo "Estamos na pasta do docker!"
 script:
     - docker-compose build
