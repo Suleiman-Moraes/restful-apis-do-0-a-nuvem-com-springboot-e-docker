@@ -24,7 +24,7 @@ public class AuthController {
 	private AuthenticationManager authenticationManager;
 
 	@Autowired
-	private JwtTokenProvider jwtTokenProvider; 
+	private JwtTokenProvider jwtTokenProvider;
 
 	@Autowired
 	private UserService service;
